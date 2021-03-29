@@ -30,6 +30,10 @@
 
 
 KSETEC 홈페이지: <http://kstec.co.kr/>   
+   
+      
+     
+     
 
-*Author: KSTEC 연구원 이선의, 성초연     
-Last edited: 29-03-2021*
+Author: KSTEC 연구원 이선의, 성초연     
+Last edited: 29-03-2021
