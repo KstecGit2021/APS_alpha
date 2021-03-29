@@ -498,7 +498,7 @@ def main2():
     load_model_lstm(jsonfile, h5file, new_RD, grouped, y_val, test_p, scaler)
 
 
-# In[12]:
+# In[10]:
 
 
 # 단변량
@@ -510,7 +510,7 @@ if __name__ == "__main__":
     main2()
 
 
-# In[13]:
+# In[11]:
 
 
 # 다변량
