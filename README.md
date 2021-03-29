@@ -3,13 +3,18 @@
 *Author: KSTEC 연구원 이선의, 성초연 
 Last edited: 29-03-2021*
 
+# 목적
 머신 러닝, 최적화 기준 정보, 수요, CAPA 예측 및 최적화 Platform 구현 
 분석을 위한 데이터를 추출 가공하고, 예측 결과를 산출
 업무적 의사 결정에 필수적인 예측 수치와 근거를 제시 한다.
 
+# 데이터 정보
+![image](https://user-images.githubusercontent.com/78070883/112792836-26cb7580-909f-11eb-9117-6bb4aec2c8c8.png)
+
+
 ## Overview
-1. 일반회귀식 & Auto_ML
-2. 시계열 & Auto Arima & 시계열 딥러닝 (LSTM)
+### 1. 일반회귀식 & Auto_ML
+### 2. 시계열 & Auto Arima & 시계열 딥러닝 (LSTM)
 
 
 예상 Target Value
