@@ -15,18 +15,19 @@
 
 
 ## Overview
-### 1. AutoML_구현 (Auto_ML)
- - 데이터 속성에 맞는 모델 자동 추천 
-### 2. 시계열_구현 (Auto Arima) 및 차분 전처리 & 선형 회귀
+
+### 1. 시계열_구현 (Auto Arima) 및 차분 전처리 & 선형 회귀
  - 시계열 데이터 패턴에 맞는 모델 자동 추천 (Auto Arima)
  - 증감 CAPA 예측 
  - Reference 유사도 분석 
  - ATTRIBUTE WEIGHT  (Reference 내 각 속성이 Target Value 결정에 미친 영향도 분석 결과)
-### 3. 시계열 딥러닝 (LSTM)
+### 2. 시계열 딥러닝 (LSTM)
  - 단별량 시계열
  - 다별량 시계열
  - 개발 된 모델 파일로 저장 
-
+### 3. 회귀분석모델 및 유사도산출
+ - 데이터 속성에 맞는 모델 자동 추천 (Auto_ML)
+ - 
 
 
 KSETEC 홈페이지: <http://kstec.co.kr/>   
