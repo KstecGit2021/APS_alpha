@@ -1,7 +1,6 @@
 # APS_alpha
  
-*Author: KSTEC 연구원 이선의, 성초연 
-Last edited: 29-03-2021*
+
 
 # 목적
 머신 러닝, 최적화 기준 정보, 수요, CAPA 예측 및 최적화 Platform 구현 
@@ -9,8 +8,11 @@ Last edited: 29-03-2021*
 업무적 의사 결정에 필수적인 예측 수치와 근거를 제시 한다.
 
 # 데이터 정보
-![image](https://user-images.githubusercontent.com/78070883/112793218-dacd0080-909f-11eb-8d97-7946194583cb.png)
 
+| PRJ_ID   |  DATA_TYPE | MONTH_NO  | QTY  |  FEATURE_1 ~ 5  |
+| --------- | -------- | ------------- |------------- |------------- |
+|  DAESANG  |  TD  | 15-Jan |710| 상온|
+|  DAESANG  |  RD  | 20-Mar |0 | 냉동| 
 
 ## Overview
 ### 1. 일반회귀식 & Auto_ML
@@ -37,3 +39,5 @@ model 저장 - data model
 
 
 KSETEC 홈페이지: <http://kstec.co.kr/>
+*Author: KSTEC 연구원 이선의, 성초연     
+Last edited: 29-03-2021*
