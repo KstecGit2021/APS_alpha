@@ -357,7 +357,7 @@ def main():
         print('Please select your data model')
 
 
-# In[8]:
+# In[9]:
 
 
 # 선형
@@ -369,7 +369,7 @@ if __name__ == "__main__":
     main()
 
 
-# In[13]:
+# In[10]:
 
 
 # 로지스틱
@@ -381,7 +381,7 @@ if __name__ == "__main__":
     main()
 
 
-# In[15]:
+# In[11]:
 
 
 # Auto_ML
@@ -392,7 +392,7 @@ if __name__ == "__main__":
     main()
 
 
-# In[17]:
+# In[12]:
 
 
 # 신경망 
@@ -405,7 +405,7 @@ if __name__ == "__main__":
 
 # ## 파일에 저장한 모델 불러오기
 
-# In[9]:
+# In[13]:
 
 
 def load_model_keras(jsonfile, h5file, new_RD): # 신경망
@@ -427,7 +427,7 @@ def load_model_keras(jsonfile, h5file, new_RD): # 신경망
     return pred_df
 
 
-# In[10]:
+# In[14]:
 
 
 def load_model_sklearn(filename, new_RD): # 모든 회귀모델 
@@ -444,56 +444,74 @@ def load_model_sklearn(filename, new_RD): # 모든 회귀모델
 
 # ## 저장된 파일로 모델 실행
 
-# In[11]:
+# In[15]:
 
 
-dummy_list, x_val, y_val, predic_period, Train, Predict, model_name = read_data_info (read_data_file, read_col_info_file, read_model_info_file)
+def main2():
+    dummy_list, x_val, y_val, predic_period, Train, Predict, model_name = read_data_info (read_data_file, read_col_info_file, read_model_info_file)
 
 
-# 샘플뽑아 진행 (생략가능)
-Train, Predict = small_sample(300, 50, Train, Predict) # random하게 data를 뽑아와 모델 재사용해봄
-# 샘플사이즈는 동일하지만, index는 임의적으로 지정되어 데이터 구성, 즉, 새로운 데이터를 만든 것
+    # 샘플뽑아 진행 (생략가능)
+    Train, Predict = small_sample(300, 50, Train, Predict) # random하게 data를 뽑아와 모델 재사용해봄
+    # 샘플사이즈는 동일하지만, index는 임의적으로 지정되어 데이터 구성, 즉, 새로운 데이터를 만든 것
 
-# make dataset 
-X_Train_df, y_Train_df, X_Predict_df, y_Predict_df = make_model_df (dummy_list, x_val, y_val, Train, Predict)
-new_RD = X_Predict_df
+    # make dataset 
+    X_Train_df, y_Train_df, X_Predict_df, y_Predict_df = make_model_df (dummy_list, x_val, y_val, Train, Predict)
+    new_RD = X_Predict_df
+    
+    if model_name == 'logit' or model_name == 'OLS' or model_name == 'Auto_reg':
+        load_model_sklearn (file, new_RD)
+        
+    elif model_name == 'Neural_net' or model_name == 'Random_fore':
+        load_model_keras(jsonfile, h5file, new_RD)
+        
+    else: 
+        print('Please select your data model')
 
 
-# In[12]:
+# In[17]:
 
 
 # 선형
-ols_file = '0x000001DAD4B9E8E0.pkl'
-output_file_name = 'load_선형_예측값.csv'
-load_model_sklearn (ols_file, new_RD)
-
-
-# In[14]:
-
-
-# 로지스틱
-logit_file = '0x000001DAC1BBF2E0.pkl'
-output_file_name = 'load_로지스틱_예측값.csv'
-load_model_sklearn (logit_file, new_RD)
-
-
-# In[16]:
-
-
-# Auto_ML
-auto_file = "210324_145522_ExtraTreesRegressor.pkl"
-output_file_name = 'load_오토_예측값.csv'
-load_model_sklearn (auto_file, new_RD)
+if __name__ == "__main__":
+    read_model_info_file = 'input_AutoML_설정옵션2.csv'
+    file = '0x000001DAD4B9E8E0.pkl'
+    output_file_name = 'load_선형_예측값.csv'
+    main2()
 
 
 # In[18]:
 
 
+# 로지스틱
+if __name__ == "__main__":
+    read_model_info_file = 'input_AutoML_설정옵션4.csv'
+    file = '0x000001DAC1BBF2E0.pkl'
+    output_file_name = 'load_로지스틱_예측값.csv'
+    main2()
+
+
+# In[19]:
+
+
+# Auto_ML
+if __name__ == "__main__":
+    read_model_info_file = 'input_AutoML_설정옵션.csv'
+    file = '210324_145522_ExtraTreesRegressor.pkl'
+    output_file_name = 'load_오토_예측값.csv'
+    main2()
+
+
+# In[20]:
+
+
 # 신경망
-jsonfile = '0x000001DAC49700A0.json' # 파일 이름 
-h5file = '0x000001DAC49700A0.h5'
-output_file_name = 'load_신경망_예측값.csv'
-load_model_keras(jsonfile, h5file, new_RD)
+if __name__ == "__main__":
+    read_model_info_file = 'input_AutoML_설정옵션3.csv'
+    jsonfile = '0x000001DAC49700A0.json' # 파일 이름 
+    h5file = '0x000001DAC49700A0.h5'
+    output_file_name = 'load_신경망_예측값.csv'
+    main2()
 
 
 # In[ ]:
