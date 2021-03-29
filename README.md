@@ -9,8 +9,7 @@ Last edited: 29-03-2021*
 업무적 의사 결정에 필수적인 예측 수치와 근거를 제시 한다.
 
 # 데이터 정보
-![image](https://user-images.githubusercontent.com/78070883/112792836-26cb7580-909f-11eb-9117-6bb4aec2c8c8.pn gwidth="450px" height="300px")
-
+![image](https://user-images.githubusercontent.com/78070883/112793218-dacd0080-909f-11eb-8d97-7946194583cb.png)
 
 
 ## Overview
