@@ -1,0 +1,13 @@
+﻿,모델,c0,c1,c2,c3,c4,c5,c6
+,모델 버전,index,coef,std err,z,P>|z|,[0.025,0.975]
+0,"Logit_MLE_Wed, 24 Mar 2021",FEATURE_1_냉동,-0.6592,,,,,
+1,"Logit_MLE_Wed, 24 Mar 2021",FEATURE_1_냉장,-0.1087,,,,,
+2,"Logit_MLE_Wed, 24 Mar 2021",FEATURE_1_상온,0.0515,,,,,
+3,"Logit_MLE_Wed, 24 Mar 2021",FEATURE_2_B2B,0.3331,,,,,
+4,"Logit_MLE_Wed, 24 Mar 2021",FEATURE_2_B2C,-0.036,,,,,
+5,"Logit_MLE_Wed, 24 Mar 2021",FEATURE_2_미지정,-1.0136,,,,,
+6,"Logit_MLE_Wed, 24 Mar 2021",FEATURE_4_O,0.1782,,,,,
+7,"Logit_MLE_Wed, 24 Mar 2021",FEATURE_4_X,-0.8946,,,,,
+8,"Logit_MLE_Wed, 24 Mar 2021",FEATURE_5_A,1.5802,,,,,
+9,"Logit_MLE_Wed, 24 Mar 2021",FEATURE_5_B,-0.5011,,,,,
+10,"Logit_MLE_Wed, 24 Mar 2021",FEATURE_5_C,-1.7955,,,,,
