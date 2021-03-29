@@ -1,9 +1,4 @@
-# 시계열 구현
-
-*Author: KSTEC 연구원 이선의 
-Last edited: 29-03-2021*
-
-# Deasang Time serise 
+# 시계열 구현 (Deasang Time serise)
 
 대상 데이터를 활용해 아래와 같은 결과 값을 구현하였습니다.
 
@@ -29,7 +24,7 @@ Last edited: 29-03-2021*
 - 예측 모델 값
 - 변수 중요도
 
-#시나리오
+# 시나리오
 
 ### 1. 시계열 분석 (Auto_Arima 사용)
 - 예측 모델의 입출력 값
@@ -50,3 +45,6 @@ Last edited: 29-03-2021*
   - Input(x)은 신규 아이템에 대한 속성(이전에 **_있던_** 속성 값)
   - Output(y)는 기존 아이템에 대한 평균 QTY 예측값 
 
+
+*Author: KSTEC 연구원 이선의 
+Last edited: 29-03-2021*
