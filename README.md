@@ -9,10 +9,10 @@
 
 # 데이터 정보
 
-| PRJ_ID   |  DATA_TYPE | MONTH_NO  | QTY  |  FEATURE_1 ~ 5  |
-| --------- | -------- | ------------- |------------- |------------- |
-|  DAESANG  |  TD  | 15-Jan |710| 상온|
-|  DAESANG  |  RD  | 20-Mar |0 | 냉동| 
+| PRJ_ID   |  DATA_TYPE | PART | MONTH_NO | QTY  |  FEATURE_1 |  FEATURE_2  | 	FEATURE_3  |	FEATURE_4 | 	FEATURE_5 |
+| --------- | -------- | -----|--------- |------------- |------------- |--------- |------------- |------------- |
+|  DAESANG  |  TD   | 1000180 | 15-Jan | 710| 상온| 100110100 | B2B |X | C|
+|  DAESANG  |  RD   | 2026375 |20-Mar | 0 | 냉동| 997680140 | B2B | X| A|
 
 ## Overview
 ### 1. 일반회귀식 & Auto_ML
