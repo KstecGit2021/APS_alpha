@@ -46,5 +46,6 @@
   - Output(y)는 기존 아이템에 대한 평균 QTY 예측값 
 
 
-*Author: KSTEC 연구원 이선의 
-Last edited: 29-03-2021*
+*Author: KSTEC 연구원 이선의*
+
+*Last edited: 29-03-2021*
