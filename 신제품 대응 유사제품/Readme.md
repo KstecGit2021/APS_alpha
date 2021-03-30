@@ -19,8 +19,6 @@
 
 # 시나리오 1
 
-### 회귀모델 (Auto_ML, 선형(OLS), 이항선형회귀(Logistic), 신경망(Neural_network))
-
 **예측 모델의 입출력 값**
 
 - Input(x)은 신규 아이템에 대한 속성(이전에 있던 속성 값)
@@ -40,9 +38,38 @@
 
 **output 정보**
 
-- 모델 정보 파일 : output_model_모델 (*model: 사용된 모델 정보*)
+### 1.1 일반 회귀모델 (선형(OLS), 이항선형회귀(Logistic))
+
+- 모델 정보 파일 : output_model_정보 (*model: 사용된 모델 이름*)
+- 모델 결과 파일 : output_model_결과 
+- 모델 예측결과 파일 : output_model_예측값
+
+### 1.2 회귀모델 (Auto_ML, 신경망(Neural_network))
+
+- 모델 이름 파일 : output_model_모델 (*model: 사용된 모델 이름*)
 - 모델 예측결과 파일 : output_model_예측값
 
 **load 정보**
 
 - 저장된 모델에 따른 새로운 예측결과 파일 : load_model_예측값
+
+# 시나리오 2
+**Input 정보**
+
+- 데이터 셋 파일명: new_DAESANG_DATA.csv
+- 설정 옵션 파일명: input_AutoML_설정옵션.csv
+- 데이터 유형 파일명: input_AutoML_데이터유형.csv
+
+**모델정보**
+
+- auto_modelling
+- auto_modelling 처음 실행시 !pip install auto_modelling 코드 실행 필요
+
+**코드설명**
+
+월별 RD 예측 (ID별예측, feature 조건별 예측)
+
+**Output 정보**
+
+- 예측 결과
+- 예측 모델 정보
