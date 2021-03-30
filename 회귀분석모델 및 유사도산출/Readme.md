@@ -13,10 +13,11 @@
 **Input 정보**
 - 데이터 셋 파일명: new_DAESANG_DATA.csv
 - 데이터 유형 파일명: input_LSTM_데이터유형.csv
-- 설정 옵션 파일명 (Auto_ML) : input_Auto_설정옵션.csv
-- 설정 옵션 파일명 (OLS)     : input_Auto_설정옵션2.csv
-- 설정 옵션 파일명 (Neural_net) : input_Auto_설정옵션3.csv
-- 설정 옵션 파일명 (logit)   : input_Auto_설정옵션4.csv
+- ※ 설정 옵션 파일이름 변경으로 모델 테스트
+- 설정 옵션 파일명: input_AutoML_설정옵션.csv *Auto_ML*
+- 설정 옵션 파일명 : input_AutoML_설정옵션2.csv *OLS*
+- 설정 옵션 파일명 : input_AutoML_설정옵션3.csv *Neural_net*
+- 설정 옵션 파일명 : input_AutoML_설정옵션4.csv *logit*
 
 **Output 정보**
 - 예측 결과
