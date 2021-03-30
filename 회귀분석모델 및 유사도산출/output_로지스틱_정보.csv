@@ -1,8 +1,0 @@
-﻿,모델,c0,c1,c2,c3
-,모델 버전,Dep. Variable:,QTY,No. Observations:,300
-0,"Logit_MLE_Wed, 24 Mar 2021",Model:,Logit,Df Residuals:,292.0
-1,"Logit_MLE_Wed, 24 Mar 2021",Method:,MLE,Df Model:,7.0
-2,"Logit_MLE_Wed, 24 Mar 2021",Date:,"Wed, 24 Mar 2021",Pseudo R-squ.:,0.2777
-3,"Logit_MLE_Wed, 24 Mar 2021",Time:,16:17:37,Log-Likelihood:,-124.93
-4,"Logit_MLE_Wed, 24 Mar 2021",converged:,False,LL-Null:,-172.95
-5,"Logit_MLE_Wed, 24 Mar 2021",Covariance Type:,nonrobust,LLR p-value:,7.032e-18
