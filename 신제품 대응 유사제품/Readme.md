@@ -3,9 +3,31 @@
 2.	생산량 (Capa) 증감 예측
 3.	신 제품과 유사한 기존 제품과의 유사도 분석   
 
+**모델 종류**
+
+OLS: 선형회귀
+MNLogit: 이항회귀
+RandomForestRegressor
+GoRegress: Auto_ML
+GoClassify: Auto_ML
+Neural_net: 신경망,Neural Network (분류)
+
+**모델을 파일로 저장**
+
+keras(케라스)를 쓰는 경우는 json / h5 파일로 모델 저장
+sklearn를 쓰는 경우는 pickle 파일로 모델 저장
+
 # 시나리오 1
 
+### 회귀모델 (Auto_ML, 선형(OLS), 이항선형회귀(Logistic), 신경망(Neural_network))
+
+**예측 모델의 입출력 값**
+
+- Input(x)은 신규 아이템에 대한 속성(이전에 있던 속성 값)
+- Output(y)는 기존 아이템에 대한 QTY 예측값
+
 **input 정보**
+
 - 데이터 파일 : new_DAESANG_DATA.csv
 - 데이터 유형 파일 : input_LSTM_데이터유형.csv
 
@@ -17,8 +39,10 @@
 - _logit_ 설정 파일 : input_AutoML_설정옵션4.csv
 
 **output 정보**
+
 - 모델 정보 파일 : output_model_모델 (*model: 사용된 모델 정보*)
 - 모델 예측결과 파일 : output_model_예측값
 
 **load 정보**
+
 - 저장된 모델에 따른 새로운 예측결과 파일 : load_model_예측값
