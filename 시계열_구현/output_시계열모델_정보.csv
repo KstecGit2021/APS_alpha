@@ -1,8 +1,0 @@
-﻿,모델,c0,c1,c2,c3
-,모델 버전,Dep. Variable:,y,No. Observations:,26
-0,"SARIMAX(1, 0, 0)_Fri, 12 Mar 2021_15:22:39",Model:,"SARIMAX(1, 0, 0)",Log Likelihood,-191.55200000000002
-1,"SARIMAX(1, 0, 0)_Fri, 12 Mar 2021_15:22:39",Date:,"Fri, 12 Mar 2021",AIC,389.10400000000004
-2,"SARIMAX(1, 0, 0)_Fri, 12 Mar 2021_15:22:39",Time:,15:22:39,BIC,392.87800000000004
-3,"SARIMAX(1, 0, 0)_Fri, 12 Mar 2021_15:22:39",Sample:,0,HQIC,390.191
-4,"SARIMAX(1, 0, 0)_Fri, 12 Mar 2021_15:22:39",,- 26,,
-5,"SARIMAX(1, 0, 0)_Fri, 12 Mar 2021_15:22:39",Covariance Type:,opg,,
