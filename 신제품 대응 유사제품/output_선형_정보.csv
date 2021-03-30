@@ -1,0 +1,10 @@
+﻿,모델,c0,c1,c2,c3
+,모델 버전,Dep. Variable:,QTY,R-squared:,0.069
+0,"OLS_Least Squares_Mon, 29 Mar 2021",Model:,OLS,Adj. R-squared:,0.046
+1,"OLS_Least Squares_Mon, 29 Mar 2021",Method:,Least Squares,F-statistic:,3.072
+2,"OLS_Least Squares_Mon, 29 Mar 2021",Date:,"Mon, 29 Mar 2021",Prob (F-statistic):,0.00388
+3,"OLS_Least Squares_Mon, 29 Mar 2021",Time:,10:29:49,Log-Likelihood:,-3165.8
+4,"OLS_Least Squares_Mon, 29 Mar 2021",No. Observations:,300,AIC:,6348.0
+5,"OLS_Least Squares_Mon, 29 Mar 2021",Df Residuals:,292,BIC:,6377.0
+6,"OLS_Least Squares_Mon, 29 Mar 2021",Df Model:,7,,
+7,"OLS_Least Squares_Mon, 29 Mar 2021",Covariance Type:,nonrobust,,
