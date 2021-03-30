@@ -18,13 +18,12 @@ http://elearning.kocw.net/contents4/document/lec/2013/Konkuk/Leegiseong/5.pdf
 
 ## Input 정보
 
-- 데이터 셋 파일명: daesang.csv
-- 분석 조건 값 파일명: input_LSTM_조건설정값3.csv
-- 데이터 유형 파일명: input_LSTM_데이터유형.csv
-
-※ 설정옵션 파일이름 변경으로 단변량, 다변량 테스트
-- input_AutoML_설정옵션5.csv *단별량 (LSTM)*
-- input_AutoML_설정옵션6.csv *다별량 (Multi_Lstm)*
+- 데이터 셋 파일명 : daesang.csv
+- 분석 조건 값 파일명 : input_LSTM_조건설정값3.csv
+- 데이터 유형 파일명 : input_LSTM_데이터유형.csv
+※ 설정 옵션 파일이름 변경으로 단변량, 다변량 테스트
+- 설정 옵션 파일명: input_AutoML_설정옵션5.csv *단별량 (LSTM)*
+- 설정 옵션 파일명 : input_AutoML_설정옵션6.csv *다별량 (Multi_Lstm)*
 
 ## Output 정보
 
