@@ -16,4 +16,7 @@
 
 **output 정보**
 - 모델 정보 파일 : output_model_모델 (*model: 사용된 모델 정보*)
-- 모델 예측결과 파일 : output_model_결과값
+- 모델 예측결과 파일 : output_model_예측값
+
+**load 정보**
+- 저장된 모델에 따른 새로운 예측결과 파일 : load_model_예측값
