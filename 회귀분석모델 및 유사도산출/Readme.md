@@ -57,4 +57,4 @@
 - Output(y)는 전체 아이템과의 속성 유사성(TD/RD _구별 없음_)
 
 *Author: KSTEC 연구원 성초연*   
-*Last edited: 29-03-2021*
+*Last edited: 30-03-2021*
