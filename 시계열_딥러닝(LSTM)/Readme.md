@@ -11,6 +11,7 @@ http://elearning.kocw.net/contents4/document/lec/2013/Konkuk/Leegiseong/5.pdf
  - 1.2 다변량 (related with X)
  
 ※ 설정옵션 파일이름 변경으로 단변량, 다변량 테스트
+
 - input_AutoML_설정옵션5.csv *단별량 (LSTM)*
 - input_AutoML_설정옵션6.csv *다별량 (Multi_Lstm)*
 
