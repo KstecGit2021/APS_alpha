@@ -7,7 +7,7 @@
 - 데이터 파일 : new_DAESANG_DATA.csv
 - 데이터 유형 파일 : input_LSTM_데이터유형.csv
 
-*데이터 모델 구분*
+※ 데이터 모델 구분
 
 - _Auto_ML_ 설정 파일 : input_AutoML_설정옵션.csv
 - _OLS_ 설정 파일 : input_AutoML_설정옵션2.csv
@@ -15,5 +15,5 @@
 - _logit_ 설정 파일 : input_AutoML_설정옵션4.csv
 
 **output 정보**
-- 모델 정보 파일 : output_model_모델 *model: 사용된 모델 정보*
+- 모델 정보 파일 : output_model_모델 (*model: 사용된 모델 정보*)
 - 모델 예측결과 파일 : output_model_결과값
