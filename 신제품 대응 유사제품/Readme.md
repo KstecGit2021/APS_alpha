@@ -3,6 +3,8 @@
 2.	생산량 (Capa) 증감 예측
 3.	신 제품과 유사한 기존 제품과의 유사도 분석   
 
+# 시나리오 1
+
 **input 정보**
 - 데이터 파일 : new_DAESANG_DATA.csv
 - 데이터 유형 파일 : input_LSTM_데이터유형.csv
