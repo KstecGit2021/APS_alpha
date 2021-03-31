@@ -185,7 +185,7 @@ def main():
 
 
 if __name__ == "__main__":  
-    output_file_name = 'output_유사도.csv'
+    output_file_name = 'output_유사도분석(거리계산).csv'
     main()
 
 
