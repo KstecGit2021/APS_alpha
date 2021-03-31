@@ -387,8 +387,8 @@ if __name__ == "__main__":
 # Auto_ML
 if __name__ == "__main__":  
     read_model_info_file = 'input_AutoML_설정옵션.csv'
-    output_file_name1 = 'output_오토_모델.csv'
-    output_file_name2 = 'output_오토_예측값.csv'
+    output_file_name1 = 'output_AutoML_모델.csv'
+    output_file_name2 = 'output_AutoML_예측결과.csv'
     main()
 
 
