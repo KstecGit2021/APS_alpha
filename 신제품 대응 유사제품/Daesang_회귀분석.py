@@ -476,7 +476,7 @@ def main2():
 if __name__ == "__main__":
     read_model_info_file = 'input_AutoML_설정옵션2.csv'
     file = '0x000001DAD4B9E8E0.pkl'
-    output_file_name = 'load_선형_예측값.csv'
+    output_file_name = 'output_선형_모델재사용_예측값.csv'
     main2()
 
 
@@ -487,7 +487,7 @@ if __name__ == "__main__":
 if __name__ == "__main__":
     read_model_info_file = 'input_AutoML_설정옵션4.csv'
     file = '0x000001DAC1BBF2E0.pkl'
-    output_file_name = 'load_로지스틱_예측값.csv'
+    output_file_name = 'output_로지스틱_모델재사용_예측값.csv'
     main2()
 
 
@@ -498,7 +498,7 @@ if __name__ == "__main__":
 if __name__ == "__main__":
     read_model_info_file = 'input_AutoML_설정옵션.csv'
     file = '210324_145522_ExtraTreesRegressor.pkl'
-    output_file_name = 'load_오토_예측값.csv'
+    output_file_name = 'output_AutoML_모델재사용_예측값.csv'
     main2()
 
 
@@ -510,7 +510,7 @@ if __name__ == "__main__":
     read_model_info_file = 'input_AutoML_설정옵션3.csv'
     jsonfile = '0x000001DAC49700A0.json' # 파일 이름 
     h5file = '0x000001DAC49700A0.h5'
-    output_file_name = 'load_신경망_예측값.csv'
+    output_file_name = 'output_신경망_모델재사용_예측값.csv'
     main2()
 
 
