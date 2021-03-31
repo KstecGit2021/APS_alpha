@@ -498,19 +498,19 @@ def main2():
     load_model_lstm(jsonfile, h5file, new_RD, grouped, y_val, test_p, scaler)
 
 
-# In[12]:
+# In[10]:
 
 
 # 단변량
 if __name__ == "__main__":
     jsonfile = '0x000001323F430160.json'
     h5file = '0x000001323F430160.h5'
-    read_model_info_file = 'input_AutoML_설정옵션5.csv' # 다변량
+    read_model_info_file = 'input_AutoML_설정옵션5.csv' # 단변량
     output_file_name = 'output_모델재사용_단변량_예측값.csv'
     main2()
 
 
-# In[13]:
+# In[11]:
 
 
 # 다변량
@@ -518,7 +518,7 @@ if __name__ == "__main__":
     jsonfile = '0x00000132817D5E20.json'
     h5file = '0x00000132817D5E20.h5'
     read_model_info_file = 'input_AutoML_설정옵션6.csv' # 다변량
-    output_file_name = 'output_모델재사용_단변량_예측값.csv'
+    output_file_name = 'output_모델재사용_다변량_예측값.csv'
     main2()
 
 
