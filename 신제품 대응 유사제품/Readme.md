@@ -10,12 +10,12 @@
 
 **모델 종류**
 
-- OLS: 선형회귀
-- MNLogit: 이항회귀
+- OLS : 선형회귀
+- MNLogit : 이항회귀
 - RandomForestRegressor
-- GoRegress: Auto_ML (선형)
-- GoClassify: Auto_ML (분류)
-- Neural_net: 신경망,Neural Network (분류)
+- GoRegress : Auto_ML (선형)
+- GoClassify : Auto_ML (분류)
+- Neural_net : 신경망,Neural Network (분류)
 
 **모델을 파일로 저장**
 
@@ -48,7 +48,7 @@
 
 **load 정보**
 
-- 저장된 모델에 따른 새로운 예측결과 파일 : load_model_예측값
+- 저장된 모델에 따른 새로운 예측결과 파일 
 
 # 시나리오 2
 
@@ -71,6 +71,10 @@
 
 - 예측 모델 관련 정보
 - 예측 결과
+
+**load 정보**
+
+- 저장된 모델에 따른 새로운 예측결과 파일 
 
 # 시나리오 3
 
@@ -97,3 +101,8 @@
 **output 정보**
 
 - 유사속성 결과
+
+**load 정보**
+
+- 저장된 모델에 따른 새로운 예측결과 파일 
+
