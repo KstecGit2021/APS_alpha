@@ -41,17 +41,9 @@
 
 **output 정보**
 
-### 1.1 일반 회귀모델 (선형(OLS), 이항선형회귀(Logistic))
-
-- 모델 정보 파일 : output_model_정보 (*model: 사용된 모델 이름*)
-- 모델 결과 파일 : output_model_결과 
-- 모델 예측결과 파일 : output_model_예측값
-
-### 1.2 회귀모델 (Auto_ML, 신경망(Neural_network))
-
-- 모델 이름 파일 : output_model_모델 (*model: 사용된 모델 이름*)
-- 모델 예측결과 파일 : output_model_예측값
-
+- 모델 관련 정보
+- 모델 예측결과
+- 
 **load 정보**
 
 - 저장된 모델에 따른 새로운 예측결과 파일 : load_model_예측값
@@ -67,7 +59,7 @@
 **모델정보**
 
 - auto_modelling
-- auto_modelling 처음 실행시 !pip install auto_modelling 코드 실행 필요
+  - auto_modelling 처음 실행시 !pip install auto_modelling 코드 실행 필요
 
 **코드설명**
 
@@ -102,4 +94,4 @@
 
 **output 정보**
 
-- 유사성 파일 : output_유사도
+- 유사속성 결과
