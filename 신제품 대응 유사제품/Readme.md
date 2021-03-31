@@ -11,8 +11,8 @@
 - OLS: 선형회귀
 - MNLogit: 이항회귀
 - RandomForestRegressor
-- GoRegress: Auto_ML
-- GoClassify: Auto_ML
+- GoRegress: Auto_ML (선형)
+- GoClassify: Auto_ML (분류)
 - Neural_net: 신경망,Neural Network (분류)
 
 **모델을 파일로 저장**
